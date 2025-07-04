@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{ctex}
+\begin{document}
+这是正文段落，不会触发检查。
+\begin{equation}
+E = mc^2，
+\end{equation}
+
+% 以下是一个带中文的 inline 数学表达式
+这是一段文字，含有 $F = ma。$ 的公式。
+
+% 这个例子中，中文在 \text{} 内
+\[
+    a = b + c \text{这是中文注释}
+\]
+\(1+，1=2\)
+\begin{equation*}
+    \begin{cases}
+        F【=】ma
+    \end{cases}
+\end{equation*}
+\begin{equation*}
+    \begin{aligned}
+        Temp&\\
+        试一试&\\
+        \text{这是中文注释}
+    \end{aligned}
+\end{equation*}
+
+$试一试，\pi$
+
+$\text{试一试,}\exp(\mathrm{i}\pi)$
+
+\(a^2+b^2等于c^2\)
+
+\[尝试1
+\]
+
+\[
+尝试2\]
+
+\end{document}
